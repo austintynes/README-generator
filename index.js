@@ -66,28 +66,63 @@ return `
 # ${answers.title}
 
 ## Description
-# ${answers.description}
+
+${answers.description}
 
 ## Table of Contents
 - [Installation](#installation)
-- [Credits](#installation)
-- [Installation](#installation)
-- [Installation](#installation)
-- [Installation](#installation)
-- [Installation](#installation)
-- [Installation](#installation)
+- [Credits](#credits)
+- [License](#license)
+- [Contributing](#contributing)
+- [tests](#tests)
+- [GitHub](#github)
+- [Email](#email)
 
+## Installation
 
+${answers.installation}
 
+## Credits
 
+${answers.credits}
 
+## Usage
 
+${answers.usage}
 
+## License
 
-`
+This product is licensed under the ${answers.license} license.
 
+## Contributing
 
+${answers.contributing}
 
+## Tests
+
+${answers.tests}
+
+## Questions or Inquiries
+
+For any questions you may have, feel free to contact me using the following information:
+
+GitHub: [${answers.github}](https://github.com/${answers.github})
+
+Email: ${answers.github}
+`;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
