@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-// Array of questions for user input
+// Array of questions for input
 const questions = [
 
 {
@@ -113,7 +113,22 @@ Email: ${answers.github}
 }
 
 
+// Initialize application
 
+async function init() {
+
+try {
+
+    const answers = await inquirer.prompt(questions);
+    const readmeContent = generateREADME(answers);
+    fs.writeFileSync('README.md', readmeContent);
+    console.log('README.md is a success!');
+} catch (error) {
+    console.error('Error:', error)
+}
+}
+
+init();
 
 
 
